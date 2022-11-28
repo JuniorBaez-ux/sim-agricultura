@@ -6,15 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sim-Agricultura</title>
     <script src="./main.js" defer></script>
-    <script src="../node_modules/flowbite/dist/flowbite.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
-    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js" defer></script>
     <link href="./output.css" rel="stylesheet">
 </head>
 <body>
 
-    <div>
-        <canvas id="myChart"></canvas>
+    <div style="display: flex; padding: 2rem; justify-content: center; gap: 2rem;">
+        <h1>
+            Simulacion del crecimiento de una plantacion de cacao
+        </h1>
+    </div>
+
+    <div style="display: flex; padding: 2rem; justify-content: center; gap: 2rem;">
+        <h2 id="year">
+
+        </h2>
+        <h3 id="month">
+
+        </h3>
+    </div>
+
+    <div style="width: 800px; ">
+        <canvas id="myChart" ></canvas>
+    </div>
+
+    <div style="width: 800px; ">
+        <canvas id="finalChart" ></canvas>
     </div>
 </body>
 </html>
